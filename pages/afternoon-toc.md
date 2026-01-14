@@ -13,7 +13,6 @@
 | | Project management with Github |
 | | Continuous Integration |
 | | Collaborative Coding |
-| | Workflow managers |
 | 1700 | OxRSE services |
 
 </div>

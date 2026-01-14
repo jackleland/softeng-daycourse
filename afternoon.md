@@ -49,7 +49,6 @@ src: ./pages/afternoon-toc.md
 - **<Link to="github" title="Project management with Github" />**
 - <Link to="collaborative-coding" title="Collaborative Coding" />
 - <Link to="continuous-integration" title="Continuous Integration" />
-- <Link to="workflow-managers" title="Workflow managers" />
 
 ---
 src: ./modules/github.md
@@ -62,7 +61,6 @@ src: ./modules/github.md
 - <Link to="github" title="Project management with Github" />
 - **<Link to="continuous-integration" title="Continuous Integration" />**
 - <Link to="collaborative-coding" title="Collaborative Coding" />
-- <Link to="workflow-managers" title="Workflow managers" />
 
 ---
 src: ./modules/continuous-integration.md
@@ -75,7 +73,6 @@ src: ./modules/continuous-integration.md
 - <Link to="github" title="Project management with Github" />
 - <Link to="continuous-integration" title="Continuous Integration" />
 - **<Link to="collaborative-coding" title="Collaborative Coding" />**
-- <Link to="workflow-managers" title="Workflow managers" />
 
 ---
 src: ./modules/collaborative-coding.md
@@ -88,11 +85,6 @@ src: ./modules/collaborative-coding.md
 - <Link to="github" title="Project management with Github" />
 - <Link to="collaborative-coding" title="Collaborative Coding" />
 - <Link to="continuous-integration" title="Continuous Integration" />
-- **<Link to="workflow-managers" title="Workflow managers" />**
-
----
-src: ./modules/workflow-managers.md
----
 
 ---
 src: ./pages/codespaces-shutdown.md

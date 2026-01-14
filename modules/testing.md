@@ -295,37 +295,6 @@ When working with a <b>legacy</b> codebase,
 </v-click>
 
 ---
-transition: "none"
----
-
-# Automated Testing
-
-<div class="text-gray-400">
-<b>Unit tests</b>: Test specific units of functionality, ensuring expected outputs from given inputs.
-
-<b>Integration (functional) tests</b>: Test functional paths through the code, especially useful for exposing faults in unit interactions.
-</div>
-
-<b>Regression tests</b>: Ensure unchanged program output despite code modifications.
-
-::center
-
-<br />When working with <b>AI</b>, verify the code
-<br />behaves as expected with <b>tests</b>.
-
-<v-click>
-<br />When relying heavily on AI,
-<br />allow it to write <i><b>either</b></i> code <b><i>or</i></b> some tests.
-<br />Not both - this defeats the purpose of testing!
-</v-click>
-
-::
-
-<!--
-AI-generated tests can be trivial or miss important edge cases
--->
-
----
 
 # PyTest
 

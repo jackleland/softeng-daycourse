@@ -92,117 +92,6 @@ class: gap-4
 ---
 
 # Writing Clean Code
-### Use meaningful names - _provides context for AI..._
-
-::left::
-
-```python
-def convert(x):
-	if isinstance(x, str):
-        return x.upper()
-    elif isinstance(x, int):
-        return x * 2
-    elif isinstance(x, list):
-        return [convert(i) for i in x]
-    else:
-        return None
-```
-
-::right::
-
-```python
-def celsius_to_fahrenheit(celsius):
-    """Convert Celsius to Fahrenheit."""
-    return (celsius * 9/5) + 32
-```
-
-<v-click>
-
-- Meaningful names help *us* understand the code
-- But they also provide context to AI models
-- Thus, AI models can provide better suggestions
-
-</v-click>
-
----
-layout: two-cols-header
-class: gap-4
----
-
-# Writing Clean Code
-### But context can also be a constraint for AI...
-
-::left::
-
-```python
-def levenshtein(a, b):
-```
-
-produces
-
-```python {*}{maxHeight:'280px'}
-def levenshtein(a, b):
-    """Compute the Levenshtein distance
-       between two strings."""
-
-    if len(a) < len(b):
-        return levenshtein(b, a)
-
-    if len(b) == 0:
-        return len(a)
-
-    previous_row = range(len(b) + 1)
-    for i, c1 in enumerate(a):
-        current_row = [i + 1]
-        for j, c2 in enumerate(b):
-            insertions = previous_row[j + 1] + 1
-            deletions = current_row[j] + 1
-            substitutions = previous_row[j] \
-                + (c1 != c2)
-            current_row.append(
-                min(
-                    insertions,
-                    deletions,
-                    substitutions
-                )
-            )
-        previous_row = current_row
-
-    return previous_row[-1]
-```
-
-::right::
-
-<v-click>
-
-```python
-from Levenshtein import distance
-
-def levenshtein(a, b):
-```
-
-</v-click>
-
-<v-click>
-
-makes appropriate use of the imported library:
-
-```python
-def levenshtein(a, b):
-    return distance(a, b)
-```
-
-</v-click>
-
-<v-click>
-
-_AI (re)-invented the algorithm because it was constrained to the script context_
-
-</v-click>
-
----
-
-# Writing Clean Code
 ### Use consistent naming conventions
 
 <div class="h-10" />
@@ -425,7 +314,7 @@ def add3(a, b, c):
 ```
 </div>
 
-<small><i>A potential use for AI</i></small>
+
 
 ::right::
 
@@ -649,57 +538,17 @@ def write_report(p_value)
 
 ---
 
-# Writing Clean Code
-
-### Coding with AI:
-
-<div class="h-4" />
-
-- AI _can_ be very helpful in checking the logic, consistency and overall correctness of your code
-- AI _can_ help to restructure long scripts into shorter, more modular functions
-- AI _can_ help spot (and fix) bugs in your code
-- **BUT** AI _does not have your understanding of the problem_, and may just as easily introduce bugs
-- AI can restructure your code, but in-so-doing change the logic in subtle ways that prevent it from working as intended
-
----
-
-# Writing Clean Code
-
-### Coding with AI:
-
-<div class="h-4" />
-
-::center
-
-**Professional Software Developers Don’t Vibe, They Control:<br />
-AI Agent Use for Coding in 2025**
-
-Through field observations (N=13) and qualitative surveys (N=99), we find that while<br/><b>experienced developers value agents as a productivity boost,<br />they retain their agency in software design and implementation</b><br/>out of insistence on fundamental software quality attributes, employing<br/>strategies for controlling agent behavior leveraging their expertise.
-
-[Huang et al. 2025](https://arxiv.org/html/2512.14012v1)
-
-::
-
-<v-clicks>
-
-- Always review AI-generated code carefully
-- Test thoroughly!
-
-</v-clicks>
-
----
-
 # Recording computational steps
 
 <div class="h-10" />
 
-**A comment on workspaces in JuPyter / Matlab / R:**
+**A comment on workspaces in Jupyter / Matlab / R:**
 - A script / program records a series of computational steps
 - Workspaces are designed to resume previous sessions (persistent state)
 - This can introduce manual steps that are <span v-mark.underline.orange="1">not recorded</span>, making it <span v-mark.underline.red="2">impossible to reproduce</span> the previous result(s)
 
 **Regularly 'run from the top'**
-- Select 'Rull All' cells or the equivalent when you start work for the day
+- Select 'Run All' cells or the equivalent when you start work for the day
 - Fix any problems before you continue creating
 - If it doesn't take long to run, _always_ run all cells
 

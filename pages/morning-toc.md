@@ -13,7 +13,7 @@
 | | Version control |
 | 1230 | Lunch |
 | 1330 | OxRSE showcase |
-| 1400 | Afternoon session - Automating tasks and best practices |
+| 1430 | Afternoon session - Responsible use of AI for Coding |
 | 1700 | OxRSE services |
 
 </div>
