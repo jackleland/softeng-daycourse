@@ -83,29 +83,16 @@ src: ./pages/codespaces-intro-python.md
 
 ::centralise::
 
-# Reproducibility and collaboration
+# Software Engineering Principles
 
 ---
 
-# Reproducibility and collaboration
+# Software Engineering Principles
 
-- **<Link to="writing-clean-code" title="Writing Clean Code" />**
-- <Link to="testing" title="Testing" />
-- <Link to="dependency-management" title="Dependency management" />
-- <Link to="version-control" title="Version Control" />
-
----
-src: ./modules/writing-clean-code.md
----
-
----
-
-# Reproducibility and collaboration
-
-- <Link to="writing-clean-code" title="Writing Clean Code" />
 - **<Link to="testing" title="Testing" />**
-- <Link to="dependency-management" title="Dependency management" />
 - <Link to="version-control" title="Version Control" />
+- <Link to="github" title="Project management with Github" />
+- <Link to="continuous-integration" title="Continuous Integration" />
 
 ---
 src: ./modules/testing.md
@@ -113,28 +100,41 @@ src: ./modules/testing.md
 
 ---
 
-# Reproducibility and collaboration
+# Software Engineering Principles
 
-- <Link to="writing-clean-code" title="Writing Clean Code" />
 - <Link to="testing" title="Testing" />
-- **<Link to="dependency-management" title="Dependency management" />**
-- <Link to="version-control" title="Version Control" />
-
----
-src: ./modules/dependency-management.md
----
-
----
-
-# Reproducibility and collaboration
-
-- <Link to="writing-clean-code" title="Writing Clean Code" />
-- <Link to="testing" title="Testing" />
-- <Link to="dependency-management" title="Dependency management" />
 - **<Link to="version-control" title="Version Control" />**
+- <Link to="github" title="Project management with Github" />
+- <Link to="continuous-integration" title="Continuous Integration" />
 
 ---
 src: ./modules/version-control.md
+---
+
+---
+
+# Software Engineering Principles
+
+- <Link to="testing" title="Testing" />
+- <Link to="version-control" title="Version Control" />
+- **<Link to="github" title="Project management with Github" />**
+- <Link to="continuous-integration" title="Continuous Integration" />
+
+---
+src: ./modules/github.md
+---
+
+---
+
+# Software Engineering Principles
+
+- <Link to="testing" title="Testing" />
+- <Link to="version-control" title="Version Control" />
+- <Link to="github" title="Project management with Github" />
+- **<Link to="continuous-integration" title="Continuous Integration" />**
+
+---
+src: ./modules/continuous-integration.md
 ---
 
 ---

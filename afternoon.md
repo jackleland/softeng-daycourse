@@ -29,50 +29,18 @@ src: ./pages/afternoon-toc.md
 ---
 
 ---
-src: ./pages/oxrse-showcase.md
----
-
----
 
 ::centralise::
 
-# Automation and collaborative coding
-
----
-src: ./pages/afternoon-toc.md
----
+# Software Engineering and AI
 
 ---
 
-# Automation and collaborative coding
+# Software Engineering and AI
 
-- **<Link to="github" title="Project management with Github" />**
-- <Link to="collaborative-coding" title="Collaborative Coding" />
-- <Link to="continuous-integration" title="Continuous Integration" />
-
----
-src: ./modules/github.md
----
-
----
-
-# Automation and collaborative coding
-
-- <Link to="github" title="Project management with Github" />
-- **<Link to="continuous-integration" title="Continuous Integration" />**
-- <Link to="collaborative-coding" title="Collaborative Coding" />
-
----
-src: ./modules/continuous-integration.md
----
-
----
-
-# Automation and Collaborative Coding
-
-- <Link to="github" title="Project management with Github" />
-- <Link to="continuous-integration" title="Continuous Integration" />
 - **<Link to="collaborative-coding" title="Collaborative Coding" />**
+- <Link to="OxRSE" title="OxRSE Showcase" />
+- <Link to="AI-for-coding" title="Reponsible use of AI for Coding" />
 
 ---
 src: ./modules/collaborative-coding.md
@@ -80,11 +48,38 @@ src: ./modules/collaborative-coding.md
 
 ---
 
-# Automation and Collaborative Coding
+# Software Engineering and AI
 
-- <Link to="github" title="Project management with Github" />
 - <Link to="collaborative-coding" title="Collaborative Coding" />
-- <Link to="continuous-integration" title="Continuous Integration" />
+- **<Link to="OxRSE" title="OxRSE Showcase" />**
+- <Link to="AI-for-coding" title="Reponsible use of AI for Coding" />
+
+---
+src: ./pages/oxrse-showcase.md
+
+---
+
+---
+
+# Software Engineering and AI
+
+- <Link to="collaborative-coding" title="Collaborative Coding" />
+- <Link to="OxRSE" title="OxRSE Showcase" />
+- **<Link to="AI-for-coding" title="Reponsible use of AI for Coding" />**
+
+---
+src: ./pages/ai-for-coding.md
+---
+
+---
+
+# Software Engineering and AI
+
+
+- <Link to="collaborative-coding" title="Collaborative Coding" />
+- <Link to="OxRSE" title="OxRSE Showcase" />
+- <Link to="AI-for-coding" title="Reponsible Use of AI for Coding" />
+
 
 ---
 src: ./pages/codespaces-shutdown.md

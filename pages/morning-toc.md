@@ -6,14 +6,13 @@
 | --- | --- |
 | 0930 | Welcome |
 | 0940 | Why engineer research software? |
-| **1000** | **Morning session - Reproducibility and collaboration** |
-| | Writing clean code |
+| **1000** | **Morning session - Software Engineering Principles** |
 | | Testing |
-| | Dependency management |
 | | Version control |
+| | Project management with Github |
+| | Continuous Integration |
 | 1230 | Lunch |
-| 1330 | OxRSE showcase |
-| 1430 | Afternoon session - Responsible use of AI for Coding |
+| 1330 | Afternoon session - Software Engineering and AI |
 | 1700 | OxRSE services |
 
 </div>
