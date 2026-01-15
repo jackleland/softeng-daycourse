@@ -32,7 +32,6 @@ Navigate to the project:<br />
     - Press 'Create fork'
 - Open in Codespaces
 
-::
 
 
 
