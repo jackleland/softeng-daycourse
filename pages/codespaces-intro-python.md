@@ -10,6 +10,32 @@
 
 ::
 
+
+---
+layout: instruction
+---
+
+# Instructor follow-along...
+
+::left::
+::center
+Get up and running with Codespaces
+::
+
+::right::
+Navigate to the project:<br />
+<small>
+<a href="https://github.com/OxfordRSE/softeng-daycourse-morning">github.com/OxfordRSE/softeng-daycourse-morning</a>
+</small>
+- Create a fork of this repository 
+    - Press 'Fork' button in top right
+    - Press 'Create fork'
+- Open in Codespaces
+
+::
+
+
+
 <!--
 codespaces - we will think of them as running on your local machine.
 
