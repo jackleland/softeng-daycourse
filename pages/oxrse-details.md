@@ -1,7 +1,7 @@
 # OxRSE Training
 
 :: center
-Upcoming in-person training:
+Online training material:
 
 https://www.rse.ox.ac.uk/training
 ::
@@ -26,7 +26,7 @@ Topics include:
 - Dashboards
 - Mobile app development
 
----
+<!-- ---
 
 # Oxford Research Software Engineering
 
@@ -40,5 +40,5 @@ Topics include:
 <div class="h-4" />
 
 <img src="../img/oxrse-qr.png" width="100">
-::
+:: -->
 
