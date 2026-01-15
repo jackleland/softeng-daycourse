@@ -33,14 +33,13 @@ layout: three-panels-header
 
 ::small
 
-Writing clean code
-
 Testing
-
-Dependency management
 
 Version control
 
+Project management with Github
+
+Continuous Integration
 ::
 
 ::middle::
@@ -50,14 +49,11 @@ Version control
 
 ::small
 
-Project management with Github
-
-Continuous Integration
-
 Collaborative Coding
 
-Workflow managers
+Schmidt AI Showcase
 
+Responsible Use of AI for Coding
 ::
 
 ::right::
