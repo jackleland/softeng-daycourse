@@ -13,6 +13,9 @@
 | | Continuous Integration |
 | 1230 | Lunch |
 | 1330 | Afternoon session - Software Engineering and AI |
-| 1700 | OxRSE services |
+| | Collaborative Coding |
+| | Schmidt AI Showcase |
+| | Responsible Use of AI for Coding |
+| 1700 | End |
 
 </div>
